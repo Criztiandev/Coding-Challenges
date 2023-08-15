@@ -8,28 +8,35 @@ Given a string, detect whether or not it is a pangram. Return True if it is, Fal
 */
 
 // Solution 1 (8/14/2023)
-const sentence = "The quick brown fox jumps over the lazy dog 123 @#@#@#@3";
+const sentence = "Thee quick brown fox jumps over the lazy dog.";
 
+// Solution 1 (8/14/2023)
 function isPangram(string) {
-  // Step 1: define alphabet and split it into array of letters
+  const alphabet = "abcdefghijklmnopqrstuvwxyz".split("");
+
+  for (let letters of alphabet) {
+    if (!string.toLowerCase().includes(letters)) {
+      return false;
+    }
+  }
+
   const words = string
     .replace(/[^a-zA-Z ]/g, "")
     .toLowerCase()
     .trim()
     .split(" ");
 
+  // Step 2: Check if there is duplication
   const isDupplication = words.map((word, index) => {
     const letters = word.split("");
 
-    const res = letters.some(
-      (letter, index) => letters.indexOf(letter) !== index
-    );
-
-    return res;
+    // check if there is a occurance for each words
+    return letters.some((letter, index) => letters.indexOf(letter) !== index);
   });
 
+  // if there is true inside a single ement
   const isPangram = isDupplication.some((bool) => bool === true);
+
+  // reverse it
   return isPangram === true ? false : true;
 }
-
-console.log(isPangram(sentence));
