@@ -1,16 +1,18 @@
 //#region
 
 /*
-    * @Title: BYou only need one - Beginner
+    * @Title: You only need one - Beginner
     * @Author: Criztiandev
     * @Date:   8/15/2023
     
-    * @Problem : You will be given an array a and a value x. All you need to do is check whether the provided array contains the value. 
+    * @Problem : 
+    You will be given an array a and a value x. All you need to do is check whether the provided array contains the value. 
 
-    *Array can contain numbers or strings. X can be either. 
-    *Return true if the array contains the value, false if not.
+    Array can contain numbers or strings. X can be either. 
+    Return true if the array contains the value, false if not.
 
-    * @Exampe: check([66, 101], 66), true
+    * @Exampe: 
+    check([66, 101], 66), true
        
 
 */
