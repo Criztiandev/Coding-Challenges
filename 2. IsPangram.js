@@ -1,5 +1,5 @@
 /*
-    * @Title: Remove vowels
+    * @Title: isPangram
     * @Author: Criztiandev
     * @Date:   8/14/2023
     
