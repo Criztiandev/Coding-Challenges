@@ -11,7 +11,7 @@
     Array can contain numbers or strings. X can be either. 
     Return true if the array contains the value, false if not.
 
-    * @Exampe: 
+    * @Example: 
     check([66, 101], 66), true
        
 

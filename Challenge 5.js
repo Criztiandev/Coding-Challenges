@@ -8,18 +8,8 @@
 
     * @Example:
     Examples:
-    1: -1
-    14: -14
-    -34: 34
-
-*/
-
-/*
-
-
-Examples (input -> output)
-6, "I"     -> "IIIIII"
-5, "Hello" -> "HelloHelloHelloHelloHello"
+    6, "I"     -> "IIIIII"
+    5, "Hello" -> "HelloHelloHelloHelloHello"
 
 */
 

@@ -12,7 +12,7 @@
 
     should work also on Leading and Trailing Spaces and caps.  
 
-    * @Exampe: 
+    * @Example: 
     "apple of banana"  => "Apple of Banana"
 
 */
