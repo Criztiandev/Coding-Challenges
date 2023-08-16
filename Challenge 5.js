@@ -1,5 +1,21 @@
 /*
-Write a function that accepts an integer n and a string s as parameters, and returns a string of s repeated exactly n times.
+    * @Title: Repeat String
+    * @Author: Criztiandev
+    * @Date:   8/15/2023
+    
+    * @Problem :
+    Write a function that accepts an integer n and a string s as parameters, and returns a string of s repeated exactly n times.
+
+    * @Example:
+    Examples:
+    1: -1
+    14: -14
+    -34: 34
+
+*/
+
+/*
+
 
 Examples (input -> output)
 6, "I"     -> "IIIIII"
