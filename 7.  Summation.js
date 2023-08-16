@@ -1,7 +1,7 @@
 //#region
 
 /*
-    * @Title: Remove White Spaces 
+    * @Title: Summation 
     * @Author: Criztiandev
     * @Date:   8/15/2023
     
